@@ -48,3 +48,14 @@ console.log(x);
 //null=ausencia de valor
 var y=null;
 console.log(typeof y);
+
+x=undefined;
+console.log(typeof x);
+
+var autos=['BMW','Audi','Volvo'];
+console.log(autos);
+console.log(typeof autos);
+
+var z='';
+console.log(z);
+console.log(typeof z);
