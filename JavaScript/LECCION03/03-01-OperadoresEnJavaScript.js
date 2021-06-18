@@ -1,7 +1,12 @@
-let a=3, b=2, c=1, d= 4;
-
-let z=a * b + c /d;
+let x = 5;
+let y = 10;
+let z= ++x + y--;
+console.log(x);
+console.log(y);
 console.log(z);
 
-z= c + a *b /d;
-console.log(z);
+
+let resultado= 4 + 5 * 6 / 3;
+console.log(resultado)
+resultado=(4 + 5)* 6/3;
+console.log(resultado);
