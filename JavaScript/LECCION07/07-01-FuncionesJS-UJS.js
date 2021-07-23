@@ -1,23 +1,16 @@
-//Declaracion de la funcion
-function miFuncion(a,b){
-    console.log(arguments.length);
-    return a + b;
+//Tipos primitivos
+let x=10;
+
+function cambiarValor(a){
+    a=20;
+
+}
+cambiarValor(x);
+console.log(x);
+//console.log(a);
+
+const persona={
+    nombre: 'Juan',
+    apellido:'Perez'
 }
 
-//Llamando a la funcion
-let suma=miFuncion(2,3);
-console.log(suma)
-
-//Declaracion de una funcion de tipo expresio
-let x= function(a,b){return a + b};
-
-suma=x(1,2);
-console.log(suma);
-
-(function (a,b){
-    console.log('Ejecutando la funcion '+ (a+b));
-})(3,4);
-
-console.log(typeof miFuncion);
-
-var m
