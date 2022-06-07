@@ -15,7 +15,7 @@ caption{
 }
 th{
     color:#f1faee;
-    background-color: #1d3557;
+    background-color: hsla(215, 50%, 23%,0.3);
 }
 tr:nth-child(even){
     background-color: #f1faee;
